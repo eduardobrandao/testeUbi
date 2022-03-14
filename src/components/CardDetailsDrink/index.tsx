@@ -36,7 +36,12 @@ export function CardDetailsDrink() {
             <h1>{d.strAlcoholic}</h1>
             <h1>{d.strCategory}</h1>
             <h1>{d.strDrink}</h1>
-            <Link to={"/"}>Voltar</Link>
+            <Link
+              className="text-sky-700 font-bold  hover:border-lime-600  hover:border-b-2 hover:text-sky-900 transition ease-in-out delay-150 duration-100"
+              to={"/"}
+            >
+              Voltar
+            </Link>
           </>
         );
       })}

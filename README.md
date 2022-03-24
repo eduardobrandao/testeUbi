@@ -1,33 +1,62 @@
-## Available Scripts
+# README
 
-In the project directory, you can run:
+<P align="center"> testeUbi </p>
 
-### `npm start`
+<p align="center">
+    <a href="#sobre"> Sobre - </a>
+    <a href="#tecnologias"> Tecnologias - </a>
+    <a href="#pre-requisitos"> Pré Requisitos - </a>
+    <a href="#autor"> Autor </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h4 align="center"> Projeto Finalizado </h4>
 
-### `npm test`
+# Feature
 
-Launches the test runner in the interactive watch mode.\
+- [x] Criar Listagem categorias
+- [x] Mostrar as diversas opções da cada categoria
+- [x] Detalhes de cada item
 
-### `npm run build`
+## Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, você vai precisar ter instalado em sua maquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disso é bo ter um editor para trabalhar com codigo como [VSCode](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Rodando o Front End
 
-### `npm run eject`
+bash
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Clone do repositorio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+$ git clone <https://github.com/eduardobrandao/testeUbi>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Acesse a pasta do projeto no terminal/cmd
+
+## $ cd projeto
+
+#### Podemos dar um desses comandos abaixo, para instalar as dependencias
+
+$ yarn install  
+$ npm install
+
+---
+
+#### Execute a aplicação em modo de desenvolvimento, Podemos dar um desses comandos abaixo
+
+$ yarn start
+$ npm start
+
+#### O servidor iniciará na porta: 3000 - acesse <http://localhost:3000>
+
+#### buildando a aplicação, Podemos dar um desses comandos abaixo
+
+---
+
+$ yarn run build
+
+$ npm run build
